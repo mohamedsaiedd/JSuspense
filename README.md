@@ -19,8 +19,8 @@ To use JSuspense in your project, you can install it via npm or include the scri
 <html>
 <head>
   <title>My Website</title>
-  <!-- Include PreloaderLib CSS file -->
-  <link rel="stylesheet" href="styles.css">
+  <!-- Include JSuspense CSS file -->
+   <link rel="stylesheet" href="https://unpkg.com/jsuspense@1.0.4/src/index.css">
 </head>
 <body>
   <!-- Your content goes here -->
@@ -38,7 +38,7 @@ To use JSuspense in your project, you can install it via npm or include the scri
                 release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
                 software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
-  <!-- Include PreloaderLib JS file -->
-  <script src="JSuspense.js"></script>
+  <!-- Include JSuspense JS file -->
+      <script  src="https://unpkg.com/jsuspense@1.0.4/lib/index.js"></script>
 </body>
 </html>
