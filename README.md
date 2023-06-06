@@ -14,6 +14,19 @@ JSuspense is a powerful JavaScript , lightweight library that helps you add stun
 ## Installation
 To use JSuspense in your project, you can install it via npm or include the script directly in your HTML file. Here's an example:
 
+```command
+npm i JSuspense
+```
+
+```html
+
+ <!-- Include JSuspense CDN -->
+<link rel="stylesheet" href="https://unpkg.com/jsuspense@1.0.6/src/index.css">
+<script  src="https://unpkg.com/jsuspense@1.0.6/lib/index.js"></script>
+
+```
+EXAMPLE
+
 ```html
 <!DOCTYPE html>
 <html>
