@@ -1,6 +1,6 @@
 {
   "name": "jsuspense",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "JSuspense is a light weight lib. for prelaoding content",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/mohamedsaiedd/JSuspense/issues"
   },
-  "homepage": "https://github.com/mohamedsaiedd/JSuspense#readme",
+  "homepage": "https://jsuspense.vercel.app",
   "devDependencies": {
     "prettier": "^2.8.8",
     "tslint": "^6.1.3",
