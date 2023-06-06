@@ -1,7 +1,8 @@
 
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&display=swap');body {
     background-color: #040616;
-    mix-blend-mode: difference !important;
+    font-family: 'Roboto', sans-serif;
+
 }
 main {
     color: rgba(255, 255, 255, 0.881);
@@ -14,10 +15,11 @@ main {
 
 @keyframes placeHolderShimmer{
     0%{
-        background-position: -468px 0
+        background-position: -100% 0
     }
+    
     100%{
-        background-position: 468px 0
+        background-position: 1000% 0
     }
 }
 img {
@@ -31,18 +33,22 @@ img {
     border-radius: 7px;
     height: fit-content !important;
     width: fit-content !important;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-duration: 10s;
     animation-name: placeHolderShimmer;
-    animation-timing-function: linear;
     background: #f6f7f8;
-    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background: linear-gradient(to right, #060c3887 8%, #16267e87 18%, #020a3b87 33%);
     background-size: 800px 104px;
     backdrop-filter: blur(14px);
     height: 96px;
     position: relative;
-    mask-clip:inherit
+    mask-clip:inherit;
+    margin-top: 20px;
+    animation-iteration-count:infinite;
+    animation-fill-mode:both;
+    animation-timing-function: linear;
+
+
+
 }
 .JSuspense-wraper .loaded {       
     visibility: visible;
@@ -72,6 +78,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: baseline;
+    z-index: 9999 !important;
+
 }
 .repogithub   {
     position: fixed;
@@ -81,9 +89,33 @@ img {
     display: flex;
     justify-content: center;
     align-items: baseline;
+    z-index: 9999 !important;
 }
-.repogithub img  ,.npmLink img{
+.repogithub img  , .npmLink img{
     width: 40px;
     height: 40px;
-    mix-blend-mode: difference !important;
+}
+.center {
+    text-align: center;
+    
+}
+.center h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+.center p  {
+    background-color: #0c134487;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 7px;
+    color: white !important;
+}
+ .center a {
+    color: white !important;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: 700;
 }
