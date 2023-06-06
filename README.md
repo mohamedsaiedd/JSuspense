@@ -17,6 +17,7 @@ To use JSuspense in your project, you can install it via npm or include the scri
 ```command
 npm i JSuspense
 ```
+OR
 
 ```html
 
